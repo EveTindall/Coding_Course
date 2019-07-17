@@ -1,0 +1,44 @@
+body {
+  color: rgb(100,200,88);
+  font-family: arial;
+  margin: 20px;
+}
+div {
+  min-height: 20vh;
+}
+h1, h2 {
+  text-align: center;
+}
+h1 {
+font-size: 5em;
+}
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 200px;
+}
+li#lower {
+  margin-top: 7%;
+}
+li#lowest {
+  margin-top: 14%;
+}
+div.contrast {
+  background-color: rgb(255, 0, 0);
+  color: rgb(5,0,12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div#hello {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
